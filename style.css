@@ -344,6 +344,16 @@ header a:hover {
 }
 
 footer {
+    text-align: center;
+    background-color: #8c52ff;
+}
+
+footer p {
+    color: white;
+    padding: 20px;
+}
+
+footer .final {
     background-color: #8c52ff;
     padding-top: 40px;
     display: flex;
@@ -588,7 +598,7 @@ footer img {
         margin: 20px 35px;
     }
 
-    footer {
+    footer .final {
         flex-direction: column; /* Organiza os itens do footer em coluna */
         align-items: center;
         height: auto; /* Ajuste da altura */
